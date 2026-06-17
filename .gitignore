@@ -1,0 +1,45 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large/generated data and model artifacts
+data/
+outputs/
+backups/
+latex_kltn_nbs/promt/
+latex_kltn_nbs/*_extract.txt
+*.joblib
+*.pkl
+*.npy
+*.sqlite
+*.sqlite3
+*.index
+
+# LaTeX generated files
+latex_kltn_nbs/*.aux
+latex_kltn_nbs/*.log
+latex_kltn_nbs/*.out
+latex_kltn_nbs/*.toc
+latex_kltn_nbs/*.lof
+latex_kltn_nbs/*.lot
+latex_kltn_nbs/*.synctex.gz
+latex_kltn_nbs/*.fls
+latex_kltn_nbs/*.fdb_latexmk
+
+# Keep source PDF if needed, but ignore ad-hoc reports
+latex_kltn_nbs/turnitin_27_report.pdf
+latex_kltn_nbs/turnitin_27_report.txt
+
+# Runtime logs
+*.log

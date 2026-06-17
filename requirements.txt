@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+joblib
+streamlit
+xgboost
+lightgbm
+matplotlib
+statsmodels
+chromadb
+faiss-cpu
+sentence-transformers
+google-generativeai
+openai
+python-dotenv
+vnstock>=4.0.2

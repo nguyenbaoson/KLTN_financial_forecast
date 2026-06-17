@@ -1,0 +1,8 @@
+services:
+  kltn:
+    build:
+      context: .
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: ["python", "tools/run_kltn_pipeline.py", "all"]
